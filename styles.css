@@ -1,9 +1,6 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-    min-height: 100vh;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 .headerbody{
     background-color: #1F2937;
@@ -11,7 +8,7 @@ body{
 }
 
 .header{
-    margin-top: 8px;
+    padding-top: 16px;
     display:flex;
     justify-content: space-between;
 }
@@ -19,8 +16,6 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 96px 0;
-    
-    /* width: 700px; */
 }
 .button{
     cursor: pointer;
@@ -72,4 +67,35 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.topmidbody{
+    padding-bottom: 10%;
+}
+.title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueboxes{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.box{
+    background: white;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 70px; 
+    margin-bottom: 8px;
+}
+.info{
+    gap: 8px;
+    max-width: 150px;
+    text-align: center;
 }
