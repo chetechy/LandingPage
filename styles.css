@@ -18,6 +18,10 @@ body{
     padding: 96px 0;
 }
 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
     cursor: pointer;
     background: #3882F6;
     border-radius: 8px;
@@ -144,4 +148,16 @@ a{
 }
 .button2{
     border: 2px solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+.ftext{
+    padding: 32px;
+    font-weight: 200;
 }
